@@ -1,0 +1,173 @@
+section .card-1, .card-2, .card-3{
+    /* display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 10px; */
+    float: right;
+    position: relative;
+    right: 90px;
+    padding: 20px;
+
+}
+
+/* contact us */
+section{
+    height: 500px;
+}
+#contact-form{
+    padding: 10px;
+}
+.heading{
+    height: 5rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.heading p{
+    border: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+/* HEADER */
+header{
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(rgb(20, 98, 50),rgb(105, 183, 138));
+    
+}
+header .logo-link{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 20px;
+    color:rgb(9, 79, 91);
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+     .image-para{
+        font-size: 8px;
+    }
+    .card-title{
+        font-size: 20px;
+    }
+    .mt-0{
+        font-size: 15px;
+    }
+    .mt-01{
+        font-size: 10px;
+    }
+    .media{
+        height: 10px;
+    }
+    
+    .acrd1,.card-2,.card-3{
+        padding: 0;
+        position: relative;
+        right: 0px;
+    }
+    .contact1{
+       height: 950px;
+    }
+    .footer-con .container{
+        background: linear-gradient(white,rgb(17, 163, 176));
+    }
+    .jumbotron{
+        width: 100%;
+    }
+    .head-para{
+        font-size: 8px;
+        width: 100%;
+    }
+    /* footer icons */
+    .icon-con{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+}
+
+
+/* image paragraph */
+.card-title{
+    color: rgb(2, 167, 173);
+}
+.image-para{
+    color: black;
+}
+/* nav hover */
+.nav-item .nav-link:hover{
+  background: linear-gradient(rgb(50, 144, 84),white);
+  border-radius: 10px;
+}
+/* nav dropdown hover */
+.dropdown-menu a:hover{
+    background: linear-gradient(rgb(50, 144, 84),white);
+}
+/* header name hover */
+header .logo-link:hover{
+    filter: drop-shadow(4px 4px 4px rgb(81, 79, 79));
+   color: rgb(91, 225, 246);
+}
+/* footer background color */
+.footer-con{
+   
+    background: linear-gradient(white,rgb(17, 163, 176));
+    color:black;
+    font-weight: 700;
+}
+/* footer heading hover */
+.mt-3 h5:hover{
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    
+}
+/* footer heading */
+.mt-3 h5{
+    font-family: 'Times New Roman', Times, serif;
+  margin-top: 10px;
+  font-weight:700;
+}
+/* facility1,2 button color */
+.lead .btn{
+    background: linear-gradient(rgb(17, 143, 128),rgb(114, 217, 204));
+}
+/* facility1,2 button hover */
+.lead .btn:hover{
+    background: linear-gradient(rgb(20, 98, 50),rgb(105, 183, 138));
+    filter: drop-shadow(4px 4px 4px rgb(81, 79, 79));
+}
+/* card button color */
+.card-body .btn{
+    background: linear-gradient(rgb(17, 143, 128),rgb(114, 217, 204));
+}
+/* card button hover */
+.card-body .btn:hover{
+    background: linear-gradient(rgb(20, 98, 50),rgb(105, 183, 138));
+    filter: drop-shadow(4px 4px 4px rgb(81, 79, 79));
+}
+/* para below image */
+.head-para{
+    margin: 20px;
+}
+/* footer icons  container*/
+.icon-con{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* footer icons */
+.icon-con a{
+    display: flex;
+    height: 37px;
+    width: 50px;
+    /* background-color: red; */
+    justify-content: space-around;
+    border-radius: 25px;
+    box-shadow: 3px 3px gray;
+    text-decoration: none;
+    margin: 5px;
+}
